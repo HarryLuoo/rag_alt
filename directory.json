@@ -1,0 +1,14 @@
+{
+  "planet_kepler_vorthak_chapter_1": {
+    "description": "Kepler-Vorthak: A Comprehensive Planetary Survey",
+    "chunk_file": "chunks/planet_kepler_vorthak_chapter_1.txt"
+  },
+  "starship_prometheus_chapter_1": {
+    "description": "Starship USS Prometheus Technical Manual",
+    "chunk_file": "chunks/starship_prometheus_chapter_1.txt"
+  },
+  "teleportation_manual_chapter_1": {
+    "description": "QuantumPort X7-Delta Teleportation Device Manual",
+    "chunk_file": "chunks/teleportation_manual_chapter_1.txt"
+  }
+}
