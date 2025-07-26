@@ -129,23 +129,6 @@ The system currently contains two fictional knowledge domains:
 - Maintains accuracy while improving user experience
 - No generic template responses
 
-## 🔄 System Workflow
-
-```mermaid
-graph TD
-    A[User Query] --> B[Agent A: Evaluate Query]
-    B --> C{Confidence ≥ 8?}
-    C -->|Yes| D[Agent A: Direct Answer]
-    C -->|No| E[Agent A: Select Knowledge Section(s)]
-    E --> F{Single or Multiple Sections?}
-    F -->|Single| G[Agent R_i: Process One Chunk]
-    F -->|Multiple| H[Agent R_i: Process Multiple Chunks]
-    G --> I[Agent A: Synthesize Response]
-    H --> I
-    D --> J[Final Response to User]
-    I --> J
-```
-
 ## 🧠 Multi-Source Reasoning
 
 The system now supports **multi-chunk queries** where Agent A can select multiple relevant knowledge sections for complex questions:
